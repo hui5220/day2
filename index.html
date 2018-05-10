@@ -3,14 +3,68 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + "px";
+    </script>
 </head>
 
 <body>
-
+    <div class="wrap">
+        <header>
+            <span><</span>
+            <p>无链接</p>
+            <em>=</em>
+        </header>
+        <main>
+            <div class="list">
+                <dl>
+                    <dt>
+                        <em><span></span></em>
+                    </dt>
+                    <dd>电源</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <em><span></span></em>
+                    </dt>
+                    <dd>首页</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <em><span></span></em>
+                    </dt>
+                    <dd>菜单</dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <em><span></span></em>
+                    </dt>
+                    <dd>截屏</dd>
+                </dl>
+            </div>
+            <div class="main_in">
+                <ul>
+                    <li class="dian"></li>
+                    <li class="shouye"></li>
+                    <li class="menu"></li>
+                    <li class="jie"></li>
+                </ul>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>
+<script>
+    var oBtn = document.querySelectorAll("em");
+    oBtn.forEach(function(i, v) {
+        this.onclick = function() {
+
+        }
+    })
+</script>
